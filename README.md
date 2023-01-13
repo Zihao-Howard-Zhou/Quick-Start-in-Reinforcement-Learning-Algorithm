@@ -7,8 +7,3 @@ This repository is a reproduction of the reinforcement learning algorithm I have
 ## Install
 This project is based on Pytorch 1.2.0
 
-## Results
-The following shows the episode return of various algorithms implemented in the warehouse in the cartpole-v0 environment.
-### Basic DQN
-
-![image](https://github.com/ZihaoZhouSCUT/Quick-Start-in-Reinforcement-Learning-Algorithm/blob/master/Deep-Q-Network/Episode_return_DQN.png)
