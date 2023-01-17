@@ -12,4 +12,8 @@ The following figure shows the convergence of DQN in the Cartpole-v0 environment
 ![image](https://github.com/ZihaoZhouSCUT/Quick-Start-in-Reinforcement-Learning-Algorithm/blob/master/Deep-Q-Network/Episode_return_DQN.png)
 
 The following picture shows the convergence of REINFORCE in the Cartpole-v0 environment, since REINFORCE is based on MC, the variance of the estimation is relatively large, which makes the fluctuation of reward more significant.<bar>
+
 ![image](https://github.com/ZihaoZhouSCUT/Quick-Start-in-Reinforcement-Learning-Algorithm/blob/master/Policy-Gradient/Episode_return_REINFORCE.png)
+
+Next is the convergence of A2C in the Cartpole-v0 environment, A2C is difficult to converge in the actual training process and needs to adjust parameters carefully. The reason should be that A2C does not use experience pool, resulting in too high correlation between samples of each training.<bar>
+
