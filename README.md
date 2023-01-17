@@ -17,3 +17,4 @@ The following picture shows the convergence of REINFORCE in the Cartpole-v0 envi
 
 Next is the convergence of A2C in the Cartpole-v0 environment, A2C is difficult to converge in the actual training process and needs to adjust parameters carefully. The reason should be that A2C does not use experience pool, resulting in too high correlation between samples of each training.<bar>
 
+![image](https://github.com/ZihaoZhouSCUT/Quick-Start-in-Reinforcement-Learning-Algorithm/blob/master/Advantage%20Actor%20Critic/Episode_return_A2C.png)
