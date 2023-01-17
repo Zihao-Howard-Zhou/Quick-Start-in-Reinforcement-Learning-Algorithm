@@ -11,7 +11,7 @@ This project is based on Pytorch 1.2.0
 The following figure shows the convergence of DQN in the Cartpole-v0 environment, it can be found that after 400 episodes, reward has converged to the maximum of 200, indicating that DQN has achieved good results in this task.<bar>
 ![image](https://github.com/ZihaoZhouSCUT/Quick-Start-in-Reinforcement-Learning-Algorithm/blob/master/Deep-Q-Network/Episode_return_DQN.png)
 
-The following picture shows the convergence of REINFORCE in the Cartpole-v0 environment, since REINFORCE is based on MC, the variance of the estimation is relatively large, which makes the fluctuation of reward more significant.<bar>
+The following picture shows the convergence of REINFORCE in the Cartpole-v0 environment, since REINFORCE is based on MC, the variance of the estimation is relatively large, which makes the fluctuation of reward more significant.In addition, we note that the episode required for the reward convergence of REINFORCE algorithm to the highest score is much more than that of DQN (1000 vs 400), because REINFORCE will update the network parameters only after an episode is completed.<bar>
 
 ![image](https://github.com/ZihaoZhouSCUT/Quick-Start-in-Reinforcement-Learning-Algorithm/blob/master/Policy-Gradient/Episode_return_REINFORCE.png)
 
