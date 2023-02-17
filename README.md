@@ -18,3 +18,5 @@ The following picture shows the convergence of REINFORCE in the Cartpole-v0 envi
 Next is the convergence of A2C in the Cartpole-v0 environment. During the experiment, it was found that the effect of updating the network with all the data after one episode was better than training with separate sample after each action, and the convergence effect was also more stable. At the same time, we find that compared with REINFORCE algorithm, the reward jitter of A2C is smaller, indicating that the introduction of baseline reduces the variance of the algorithm.<bar>
 
 ![image](https://github.com/ZihaoZhouSCUT/Quick-Start-in-Reinforcement-Learning-Algorithm/blob/master/Advantage%20Actor%20Critic/New_Episode_return_A2C.png)
+
+The episode return of PPO-Clip is shown in the next picture. It can be seen that the jitter of return is significantly lower than that of A2C.
