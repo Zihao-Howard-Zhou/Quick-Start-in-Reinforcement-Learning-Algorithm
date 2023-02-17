@@ -20,4 +20,5 @@ Next is the convergence of A2C in the Cartpole-v0 environment. During the experi
 ![image](https://github.com/ZihaoZhouSCUT/Quick-Start-in-Reinforcement-Learning-Algorithm/blob/master/Advantage%20Actor%20Critic/New_Episode_return_A2C.png)
 
 The episode return of PPO-Clip is shown in the next picture. It can be seen that the jitter of return is significantly lower than that of A2C.
+
 ![image](https://github.com/ZihaoZhouSCUT/Quick-Start-in-Reinforcement-Learning-Algorithm/blob/master/Proximal%20Policy%20Optimization/Episode_return_PPO_v1.png)
